@@ -1,0 +1,6 @@
+**/*.js
+**/*.js.snap
+**/*.d.ts
+src/coverage
+node_modules
+dist

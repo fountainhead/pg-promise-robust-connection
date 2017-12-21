@@ -1,0 +1,45 @@
+{
+  "name": "pg-promise-robust-connection",
+  "version": "1.0.0",
+  "description": "Initates a direct pg-promise connection that will try to re-establish itself on connection loss",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --declaration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FountainheadTechnologies/pg-promise-robust-connection.git"
+  },
+  "keywords": [
+    "pg",
+    "pg-promise",
+    "direct",
+    "listener",
+    "reconnect",
+    "retry",
+    "robust"
+  ],
+  "author": "Fountainhead Technologies Ltd.",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/FountainheadTechnologies/pg-promise-robust-connection/issues"
+  },
+  "homepage": "https://github.com/FountainheadTechnologies/pg-promise-robust-connection#readme",
+  "devDependencies": {
+    "@optics/codestyle": "^1.0.0",
+    "@types/node": "^8.5.2",
+    "@types/pg-promise": "^5.4.3",
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^11.0.2",
+    "tslint": "^5.8.0",
+    "tslint-consistent-codestyle": "^1.11.0",
+    "typescript": "^2.6.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
