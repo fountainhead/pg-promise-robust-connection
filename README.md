@@ -1,3 +1,6 @@
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Build Status](https://travis-ci.org/FountainheadTechnologies/pg-promise-robust-listener.svg?branch=master)](https://travis-ci.org/FountainheadTechnologies/pg-promise-robust-listener)
+
 # Robust Direct Connections for pg-promise
 
 This is a helper function to assist in creating a 'robust' direct connection to a Postgresql database when using the excellent [pg-promise](https://github.com/vitaly-t/pg-promise) library. The implementation is strongly inspired by https://github.com/vitaly-t/pg-promise/wiki/Robust-Listeners, with some additional configuration and logging hooks added.
