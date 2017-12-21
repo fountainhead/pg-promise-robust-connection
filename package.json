@@ -1,17 +1,17 @@
 {
   "name": "pg-promise-robust-connection",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Initates a direct pg-promise connection that will try to re-establish itself on connection loss",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --declaration",
-    "semantic-release": "semantic-release pre && npm publish --access=public && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FountainheadTechnologies/pg-promise-robust-connection.git"
+    "url": "https://github.com/FountainheadTechnologies/pg-promise-robust-connection.git"
   },
   "keywords": [
     "pg",
