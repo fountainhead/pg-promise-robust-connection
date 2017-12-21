@@ -1,5 +1,5 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Build Status](https://travis-ci.org/FountainheadTechnologies/pg-promise-robust-listener.svg?branch=master)](https://travis-ci.org/FountainheadTechnologies/pg-promise-robust-listener)
+[![Build Status](https://travis-ci.org/FountainheadTechnologies/pg-promise-robust-connection.svg?branch=master)](https://travis-ci.org/FountainheadTechnologies/pg-promise-robust-connection)
 
 # Robust Direct Connections for pg-promise
 
